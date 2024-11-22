@@ -6,7 +6,7 @@
 
 > SE VC PAGOU POR ISSO VC FOI SCAMADO 🕵🏼‍♂️
 
-<h7> **DENUNCIE 🚨** </h7>
+<h6> **DENUNCIE 🚨** </h6>
 
 
 
