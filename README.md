@@ -2,6 +2,13 @@
 
 `tank you for view`
 
-<Br>
+<br>
 
-> BLOCO
+> 📜 SCRIPTS ROBLOX
+<br>
+> 💸 METHODOS FAZER $$
+<br>
+> 🕵🏼‍♂️ METHODOS CONSULTA
+<br>
+> 🚀 PACK PRA FAMA
+<br>
