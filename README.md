@@ -17,6 +17,11 @@
  ___
 <h4>🩸CASO PRECISE DE AJUDA ENTRE EM CONTATO</h4>
 
->>>> [![📜 SERVER SUPPORT](https://via.placeholder.com/150x50.png?text=Server+support)](https://discord.gg/8KRc3VfZPC)
+ [![📜 SERVER SUPPORT](https://via.placeholder.com/150x50.png?text=Server+support)](https://discord.gg/8KRc3VfZPC)
+___
+<h5> 📜 SCRIPTS ROBLOX </h5>
+~ `🦠` DIVERSOS JOGOS
+~ `🩸` JA LANÇO COM A KEY
+~ `✳️` NADA PAGO
 
 [![Texto do Botão](https://img.shields.io/badge/Texto%20do%20Bot%C3%A3o-azul)](https://www.exemplo.com)
