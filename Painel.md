@@ -2,9 +2,9 @@
 
 ``` by raro.modz ```
 
-< TODO CONTEÚDO É GRATUITO 💸
+> TODO CONTEÚDO É GRATUITO 💸
 
-< SE VC PAGOU POR ISSO VC FOI SCAMADO 🕵🏼‍♂️
+> SE VC PAGOU POR ISSO VC FOI SCAMADO 🕵🏼‍♂️
 
 **DENUNCIE 🚨**
 
