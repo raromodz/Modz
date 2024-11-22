@@ -16,4 +16,4 @@
 
  ___
 
-[![Clique  aqui](https://via.placeholder.com/150x50.png?text=Clique+aqui)](https://www.exemplo.com)
+[![📜 SERVER SUPPORT](https://via.placeholder.com/150x50.png?text=Clique+aqui)](https://www.exemplo.com)
