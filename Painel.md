@@ -4,9 +4,9 @@
 
 > TODO CONTEÚDO É GRATUITO 💸
 
-> SE VC PAGOU POR ISSO VC FOI SCAMADO 🕵🏼‍♂️
+> SE VC PAGOU POR ISSO VC FOI SCAMADO
 
-<h6> **DENUNCIE 🚨** </h6>
+ **DENUNCIE 🚨** 
 
 
 
