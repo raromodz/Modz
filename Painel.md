@@ -1,3 +1,15 @@
+<h2> 🩸 PAINEL DO RARO </h2>
+``` by raro.modz ```
+< TODO CONTEÚDO É GRATUITO 💸
+< SE VC PAGOU POR ISSO VC FOI SCAMADO 🕵🏼‍♂️
+
+**DENUNCIE 🚨**
+
+
+
+
+
+
 <h5> 📜 SCRIPTS ROBLOX </h5>
 
 <p> ~ `🦠` DIVERSOS JOGOS </p>
