@@ -16,7 +16,8 @@
 > 🩸 CURSOS PROFISSIONAIS 
 >>>✳️ **100% GRATUITO**
 ___
-<h1> __✳️VEJA O PAINEL AQUI__ </h1>
+<h1> ✳️VEJA O PAINEL AQUI</h1>
+
  [![📜 ACESSAR PAINEL](https://via.placeholder.com/150x50.png?text=Server+support)](https://discord.gg/8KRc3VfZPC)
 
 ___
