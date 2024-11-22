@@ -6,13 +6,9 @@
 
 > SE VC PAGOU POR ISSO VC FOI SCAMADO 🕵🏼‍♂️
 
-**DENUNCIE 🚨**
+<h8> **DENUNCIE 🚨** </h8>
 
 
-<small> oi </small>
-
-
-<big> oi </big>
 
 
 <h5> 📜 SCRIPTS ROBLOX </h5>
