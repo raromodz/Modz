@@ -3,7 +3,7 @@
 - __👁️__ `tank you for view`
 
 <br>
-+ Sobre:
++       🪓Sobre:
 
 > 📜 SCRIPTS ROBLOX
 >
