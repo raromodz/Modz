@@ -1,6 +1,6 @@
 # Raro Modz 🐀.🇦🇷.🥷🏼
 
-- 👁️ `tank you for view`
+- __👁️__ `tank you for view`
 
 <br>
 
