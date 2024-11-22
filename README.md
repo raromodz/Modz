@@ -5,14 +5,6 @@
 <br>
 
 > 📜 SCRIPTS ROBLOX
->
-<br>
 > 💸 METHODOS FAZER $$
->
-<br>
 > 🕵🏼‍♂️ METHODOS CONSULTA
->
-<br>
 > 🚀 PACK PRA FAMA
->
-<br>
