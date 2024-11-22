@@ -7,4 +7,4 @@
 <p> ~ `✳️` NADA PAGO TUDO NO ESQUEMA</p>
 
 
-[![Texto do Botão](https://img.shields.io/badge/Texto%20do%20Bot%C3%A3o-azul)](https://www.exemplo.com)
+ㅤㅤㅤㅤㅤ  [![Texto do Botão](https://img.shields.io/badge/Texto%20do%20Bot%C3%A3o-azul)](https://www.exemplo.com)
