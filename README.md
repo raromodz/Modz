@@ -1,4 +1,4 @@
-# 💎 Raro Domina ✳️      🐀
+# [💎] Raro Domina [✳️]    
 
 - __👁️__ `tank you for view`
 
