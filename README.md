@@ -11,4 +11,4 @@
 > 🕵🏼‍♂️ METHODOS CONSULTA
 >
 > 🚀 PACK PRA FAMA
->>✳️ **100% GRATUITO**
+>>>✳️ **100% GRATUITO**
