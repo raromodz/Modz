@@ -16,4 +16,4 @@
 
  ___
 
-< [![📜 SERVER SUPPORT](https://via.placeholder.com/150x50.png?text=Server+support)](https://discord.gg/8KRc3VfZPC)
+> [![📜 SERVER SUPPORT](https://via.placeholder.com/150x50.png?text=Server+support)](https://discord.gg/8KRc3VfZPC)
