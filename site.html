@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -13,18 +12,35 @@
             background: linear-gradient(180deg, #ff4500, #ff8c00);
             color: #fff;
             text-align: center;
+            overflow: hidden;
         }
         header {
-            background: rgba(255, 69, 0, 0.8);
+            background: rgba(255, 69, 0, 0.9);
             padding: 20px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
         h1 {
-            font-size: 3em;
+            font-size: 3.5em;
             margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
         .content {
             padding: 50px;
+            background: rgba(255, 140, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
         }
         .button {
             background-color: #ff6347;
@@ -34,29 +50,49 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 1.2em;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
+            text-decoration: none;
         }
         .button:hover {
             background-color: #ff4500;
+            transform: scale(1.05);
         }
         footer {
             margin-top: 50px;
             padding: 20px;
-            background: rgba(255, 69, 0, 0.8);
+            background: rgba(255, 69, 0, 0.9);
             position: relative;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+        }
+        footer p {
+            margin: 0;
+        }
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG1hZ21hfGVufDB8fHx8MTY4MjY0NzYyNw&ixlib=rb-4.0.3&q=80&w=1080');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+            z-index: -1;
         }
     </style>
 </head>
 <body>
+    <div class="background-image"></div>
     <header>
         <h1>Magma Aesthetic</h1>
     </header>
     <div class="content">
         <h2>Bem-vindo ao Mundo do Magma!</h2>
-        <p>Explore as cores vibrantes e a beleza do magma. Sinta a energia e a paixão que ele traz.</p>
-        <button class="button">Descubra Mais</button>
+        <p>Explore as cores vibrantes e a beleza do magma. Sinta a energia e a paixão que ele traz. O magma é uma força da natureza, simbolizando transformação e poder.</p>
+        <p>Descubra como essa energia pode inspirar sua vida e seu estilo. Mergulhe em um universo de cores quentes e texturas fascinantes.</p>
+        <a href="#" class="button">Descubra Mais</a>
     </div>
     <footer>
         <p>&copy; 2023 Magma Aesthetic. Todos os direitos reservados.</p>
