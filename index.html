@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <title>Tela de Login</title>
     <style>
         body {
-            background-image: url('https://cdn.discordapp.com/attachments/1309333513790689329/1309760152747905074/image.png?ex=6742c0b2&is=67416f32&hm=5596581ee458563a458304514e40388262848aa0f6e449401a9f1b30426b4ea0&'); /* Substitua pela URL da sua imagem */
+            background-image: url('https://cdn.discordapp.com/attachments/1309333513790689329/1309739026936496128/image.png?ex=6742ad05&is=67415b85&hm=3973553e9a2612cebe16bbd5ab7043b3bfcfd79e800dc1125caa2d142f36c7c8&');
+            /* Substitua pela URL da sua imagem */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -21,7 +23,8 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             width: 300px;
             margin: auto;
-            margin-top: 100px; /* Para centralizar verticalmente */
+            margin-top: 100px;
+            /* Para centralizar verticalmente */
         }
 
         h1 {
@@ -61,31 +64,41 @@
 
         .welcome-message {
             position: fixed;
-            bottom: 20px; /* Distância do fundo da tela */
-            right: 20px; /* Distância da direita da tela */
-            background-color: rgba(0, 123, 255, 0.9); /* Cor de fundo azul com opacidade */
+            bottom: 20px;
+            /* DistÃ¢ncia do fundo da tela */
+            right: 20px;
+            /* DistÃ¢ncia da direita da tela */
+            background-color: rgba(0, 123, 255, 0.9);
+            /* Cor de fundo azul com opacidade */
             color: white;
             padding: 15px;
             border-radius: 5px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            opacity: 0; /* Começa invisível */
-            transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
-            transform: translateY(20px); /* Move a caixinha para baixo */
-            z-index: 1000; /* Garante que a caixinha fique acima de outros elementos */
+            opacity: 0;
+            /* ComeÃ§a invisÃ­vel */
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            /* TransiÃ§Ã£o suave */
+            transform: translateY(20px);
+            /* Move a caixinha para baixo */
+            z-index: 1000;
+            /* Garante que a caixinha fique acima de outros elementos */
         }
 
         .welcome-message.show {
-            opacity: 1; /* Torna a caixinha visível */
-            transform: translateY(0); /* Move a caixinha para sua posição original */
+            opacity: 1;
+            /* Torna a caixinha visÃ­vel */
+            transform: translateY(0);
+            /* Move a caixinha para sua posiÃ§Ã£o original */
         }
     </style>
 </head>
+
 <body>
     <div class="login-container">
         <h1>Login</h1>
         <form id="loginForm">
             <div class="input-group">
-                <label for="username">Usuário:</label>
+                <label for="username">UsuÃ¡rio:</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="input-group">
@@ -98,23 +111,40 @@
     </div>
 
     <div id="welcomeMessage" class="welcome-message">
-        Bem-vindo ao Meu mundo
+        Bem-vindo ao Painel S7!
+        by raro modz
     </div>
 
     <script>
-        // Função para mostrar a mensagem de boas-vindas
+        // FunÃ§Ã£o para mostrar a mensagem de boas-vindas
         function showWelcomeMessage() {
             const welcomeMessage = document.getElementById('welcomeMessage');
             welcomeMessage.classList.add('show'); // Adiciona a classe para mostrar a mensagem
 
-            // Remove a mensagem após 5 segundos
+            // Remove a mensagem apÃ³s 5 segundos
             setTimeout(() => {
                 welcomeMessage.classList.remove('show'); // Remove a classe para esconder a mensagem
             }, 5000); // Tempo em milissegundos
         }
 
-        // Chama a função quando a página é carregada
+        // Chama a funÃ§Ã£o quando a pÃ¡gina Ã© carregada
         window.onload = showWelcomeMessage;
+
+        // FunÃ§Ã£o para verificar o login
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Verifica usuÃ¡rio e senha
+            if (username === "admin" && password === "admin123") {
+                window.location.href = "site.html";
+            } else {
+                alert("UsuÃ¡rio ou senha incorretos!");
+            }
+        });
     </script>
 </body>
+
 </html>
