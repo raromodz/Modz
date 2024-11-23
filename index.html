@@ -60,6 +60,10 @@
     </style>
 </head>
 <body>
+    <div id="welcomeMessage" class="welcome-message">
+    Bem-vindo ao nosso site!
+</div>
+
     <div class="login-container">
         <h1>Login</h1>
         <form id="loginForm">
@@ -95,6 +99,22 @@
             const result = await response.json();
             alert(result.message);
         });
-    </script>
+
+    // Função para mostrar a mensagem de boas-vindas
+    function showWelcomeMessage() {
+        const welcomeMessage = document.getElementById('welcomeMessage');
+        welcomeMessage.classList.add('show'); // Adiciona a classe para mostrar a mensagem
+
+        // Remove a mensagem após 5 segundos
+        setTimeout(() => {
+            welcomeMessage.classList.remove('show'); // Remove a classe para esconder a mensagem
+        }, 5000); // Tempo em milissegundos
+    }
+
+    // Chama a função quando a página é carregada
+    window.onload = showWelcomeMessage;
+</script>
+
+    
 </body>
 </html>
