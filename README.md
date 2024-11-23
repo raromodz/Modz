@@ -1,6 +1,6 @@
 # Raro Domina [✳️] 
 
-[![📜 ACESSAR PAINEL](https://cdn.discordapp.com/attachments/1304283396423291034/1307898358748414054/38751985-5b58-4254-bc6e-041679a4dd1d.jpeg?ex=6741e984&is=67409804&hm=1aca30afac73f2228657627c8c0f6c44d7be69ea86565935d9c108ab2e5301f6&)]
+![by raro modz](https://cdn.discordapp.com/attachments/1304283396423291034/1307898358748414054/38751985-5b58-4254-bc6e-041679a4dd1d.jpeg?ex=6741e984&is=67409804&hm=1aca30afac73f2228657627c8c0f6c44d7be69ea86565935d9c108ab2e5301f6&)
 
 - __👁️__ `,tankyou for view`
 
