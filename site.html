@@ -3,99 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Magma e Fogo</title>
     <link rel="stylesheet" href="lava.css">
-    <title>Magma Menu</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(180deg, #ff4500, #ff8c00);
-            color: #fff;
-            text-align: center;
-            overflow: hidden;
-        }
-        header {
-            background: rgba(255, 69, 0, 0.9);
-            padding: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        }
-        h1 {
-            font-size: 3.5em;
-            margin: 0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
-        .content {
-            padding: 50px;
-            background: rgba(255, 140, 0, 0.8);
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-            margin: 20px auto;
-            max-width: 800px;
-        }
-        h2 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin: 20px 0;
-        }
-        .button {
-            background-color: #ff6347;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1.2em;
-            transition: background-color 0.3s, transform 0.3s;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #ff4500;
-            transform: scale(1.05);
-        }
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: rgba(255, 69, 0, 0.9);
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
-        }
-        footer p {
-            margin: 0;
-        }
-        .background-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://cdn.discordapp.com/attachments/1309333513790689329/1309848074880811089/images_5.jpeg?ex=67431294&is=6741c114&hm=4e1eeaf19aae90034eef3a1fa0306d9306725f0eaa3e3cb692cbb3649a622c52&');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.1;
-            z-index: -1;
-        }
-    </style>
 </head>
 <body>
-    <div class="background-image"></div>
     <header>
-        <h1>Magma Menu</h1>
+        <h1>Bem-vindo ao Mundo do Fogo</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="content">
-        <h2>Bem-vindo ao Mundo do raro!</h2>
-        <p> projeto futuro by raro modz </p>
-       <a href="#" class="button">Descubra Mais</a>
-    </div>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Explore a beleza e o poder do fogo e da magma. Aprenda sobre vulcões, chamas e muito mais!</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="imagem-container">
+            <img src="https://via.placeholder.com/400x300/FF4500/FFFFFF?text=Lava" alt="Imagem de Lava">
+            <img src="https://via.placeholder.com/400x300/FF6347/FFFFFF?text=Chamas" alt="Imagem de Chamas">
+            <img src="https://via.placeholder.com/400x300/FF8C00/FFFFFF?text=Vulcão" alt="Imagem de Vulcão">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações!</p>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Magma Aesthetic. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Site de Magma e Fogo. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
