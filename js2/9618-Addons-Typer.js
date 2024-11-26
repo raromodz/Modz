@@ -1,4 +1,4 @@
-const title = "CMSP Plataformas Hacks";
+const title = "Universe Menu ";
 const titleElement = document
     .getElementById("title")
     .querySelector("span");
