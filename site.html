@@ -52,12 +52,12 @@
 
     <div class="sidebar">
         <h2>Dashboard</h2>
-        <a href="#"><i class="fas fa-tachometer-alt"></i> Painel</a>
-        <a href="#"><i class="fas fa-pencil-alt"></i> Posts</a>
-        <a href="#"><i class="fas fa-images"></i> Mídia</a>
-        <a href="#"><i class="fas fa-tags"></i> Categorias</a>
-        <a href="#"><i class="fas fa-users"></i> Usuários</a>
-        <a href="#"><i class="fas fa-cog"></i> Configurações</a>
+        <a href="#" onclick="showSection('dashboard')"><i class="fas fa-tachometer-alt"></i> Painel</a>
+        <a href="#" onclick="showSection('posts')"><i class="fas fa-pencil-alt"></i> Posts</a>
+        <a href="#" onclick="showSection('media')"><i class="fas fa-images"></i> Mídia</a>
+        <a href="#" onclick="showSection('categories')"><i class="fas fa-tags"></i> Categorias</a>
+        <a href="#" onclick="showSection('users')"><i class="fas fa-users"></i> Usuários</a>
+        <a href="#" onclick="showSection('settings')"><i class="fas fa-cog"></i> Configurações</a>
     </div>
 
     <div class="main">
@@ -65,14 +65,14 @@
             <h1>Bem-vindo ao seu Dashboard</h1>
         </div>
 
-        <div class="card">
+        <div id="dashboard" class="card">
             <h2>Estatísticas Recentes</h2>
             <p>Visualizações: 1200</p>
             <p>Novos Posts: 5</p>
             <p>Usuários Ativos: 150</p>
         </div>
 
-        <div class="card">
+        <div id="posts" class="card" style="display:none;">
             <h2>Últimos Posts</h2>
             <ul>
                 <li>Post 1</li>
@@ -82,7 +82,38 @@
                 <li>Post 5</li>
             </ul>
         </div>
+
+        <div id="media" class="card" style="display:none;">
+            <h2>Mídia</h2>
+            <p>Aqui você pode gerenciar sua mídia.</p>
+        </div>
+
+        <div id="categories" class="card" style="display:none;">
+            <h2>Categorias</h2>
+            <p>Aqui você pode gerenciar suas categorias.</p>
+        </div>
+
+        <div id="users" class="card" style="display:none;">
+            <h2>Usuários</h2>
+            <p>Aqui você pode gerenciar seus usuários.</p>
+        </div>
+
+        <div id="settings" class="card" style="display:none;">
+            <h2>Configurações</h2>
+            <p>Aqui você pode ajustar as configurações.</p>
+        </div>
     </div>
 
+    <script>
+        function showSection(section) {
+            // Oculta todas as seções
+            const sections = ['dashboard', 'posts', 'media', 'categories', 'users', 'settings'];
+            sections.forEach(function(sec) {
+                document.get ElementById(sec).style.display = 'none';
+            });
+            // Exibe a seção selecionada
+            document.getElementById(section).style.display = 'block';
+        }
+    </script>
 </body>
             </html>
