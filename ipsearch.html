@@ -24,7 +24,7 @@
     <script>
         document.getElementById('fetch-button').addEventListener('click', function() {
             const ipQuery = document.getElementById('ip-input').value;
-            const apiUrl = `http://ip-api.com/json/${ipQuery}`;
+            const apiUrl = `https://api.ip2location.io/?key=84D335D87CCF62B2C88C9B476F0CA4C2&ip=${ipQuery}`;
 
             fetch(apiUrl)
                 .then(response => response.json())
@@ -37,11 +37,11 @@
                     } else {
                         resultDiv.innerHTML = `
                             <strong>IP:</strong> ${data.query}<br>
-                            <strong>País:</strong> ${data.country}<br>
-                            <strong>Região:</strong> ${data.regionName}<br>
-                            <strong>Cidade:</strong> ${data.city}<br>
-                            <strong>Latitude:</strong> ${data.lat}<br>
-                            <strong>Longitude:</strong> ${data.lon}<br>
+                            <strong>País:</strong> ${data.country_name}<br>
+                            <strong>Região:</strong> ${data.region_name}<br>
+                            <strong>Cidade:</strong> ${data.city_name}<br>
+                            <strong>Latitude:</strong> ${data.latitude}<br>
+                            <strong>Longitude:</strong> ${data.longitude}<br>
                             <strong>ISP:</strong> ${data.isp}<br>
                         `;
                     }
