@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de IP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #result {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta de IP</h1>
+    <input type="text" id="ip-input" placeholder="Digite um IP ou domínio" />
+    <button id="fetch-button">Buscar Dados</button>
+    <div id="result"></div>
+    
+    <script>
+        document.getElementById('fetch-button').addEventListener('click', function() {
+            const ipQuery = document.getElementById('ip-input').value;
+            const apiUrl = `http://ip-api.com/json/${ipQuery}`;
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const resultDiv = document.getElementById('result');
+                    resultDiv.innerHTML = ''; // Limpa resultados anteriores
+
+                    if (data.status === 'fail') {
+                        resultDiv.innerText = `Erro: ${data.message}`;
+                    } else {
+                        resultDiv.innerHTML = `
+                            <strong>IP:</strong> ${data.query}<br>
+                            <strong>País:</strong> ${data.country}<br>
+                            <strong>Região:</strong> ${data.regionName}<br>
+                            <strong>Cidade:</strong> ${data.city}<br>
+                            <strong>Latitude:</strong> ${data.lat}<br>
+                            <strong>Longitude:</strong> ${data.lon}<br>
+                            <strong>ISP:</strong> ${data.isp}<br>
+                        `;
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro:', error);
+                    document.getElementById('result').innerText = 'Erro ao buscar dados.';
+                });
+        });
+    </script>
+</body>
+</html>
