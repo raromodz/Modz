@@ -23,15 +23,25 @@
     
     <script>
         document.getElementById('fetch-button').addEventListener('click', function() {
-            const ipQuery = document.getElementById('ip-input').value;
+            const ipQuery = document.getElementById('ip-input').value.trim();
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = ''; // Limpa resultados anteriores
+
+            if (!ipQuery) {
+                resultDiv.innerText = 'Por favor, digite um IP ou domínio.';
+                return;
+            }
+
             const apiUrl = `https://api.ip2location.io/?key=84D335D87CCF62B2C88C9B476F0CA4C2&ip=${ipQuery}`;
 
             fetch(apiUrl)
-                .then(response => response.json())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro na resposta da API: ' + response.statusText);
+                    }
+                    return response.json();
+                })
                 .then(data => {
-                    const resultDiv = document.getElementById('result');
-                    resultDiv.innerHTML = ''; // Limpa resultados anteriores
-
                     if (data.status === 'fail') {
                         resultDiv.innerText = `Erro: ${data.message}`;
                     } else {
@@ -48,7 +58,7 @@
                 })
                 .catch(error => {
                     console.error('Erro:', error);
-                    document.getElementById('result').innerText = 'Erro ao buscar dados.';
+                    resultDiv.innerText = 'Erro ao buscar dados: ' + error.message;
                 });
         });
     </script>
