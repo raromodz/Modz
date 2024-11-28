@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            display: block;
+            color: #333;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dashboard Simples</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Relatórios</a>
+        <a href="#">Configurações</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Sair</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="card">
+            <h2>Visão Geral</h2>
+            <p>Bem-vindo ao seu dashboard! Aqui você pode visualizar informações importantes.</p>
+        </div>
+        <div class="card">
+            <h2>Estatísticas</h2>
+            <p>Estatísticas de uso e desempenho podem ser exibidas aqui.</p>
+        </div>
+        <div class="card">
+            <h2>Últimas Atividades</h2>
+            <p>As últimas atividades do sistema podem ser listadas aqui.</p>
+        </div>
+    </div>
+
+</body>
+</html
