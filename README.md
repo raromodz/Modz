@@ -20,10 +20,10 @@
 ___
 <h1> ✳️VEJA O PAINEL AQUI</h1>
 
- [![📜 ACESSAR PAINEL](https://via.placeholder.com/150x50.png?text=VER+PAINEL+💎)](https://www.blackbox.ai/share/b445356d-f631-49dc-b4da-fd85cf386dd6)
+ [![📜 ACESSAR PAINEL](https://via.placeholder.com/800x400.png?text=Segurança+Cibernética)](https://www.blackbox.ai/share/b445356d-f631-49dc-b4da-fd85cf386dd6)
 
 ___
 <h4>🩸CASO PRECISE DE AJUDA ENTRE EM CONTATO</h4>
 
- [![📜 SERVER SUPPORT](https://via.placeholder.com/150x50.png?text=Server+support)](https://discord.gg/8KRc3VfZPC)
+ [![📜 SERVER SUPPORT]([https://via.placeholder.com/150x50.png?text=Server+support])](https://discord.gg/8KRc3VfZPC)
 ___
